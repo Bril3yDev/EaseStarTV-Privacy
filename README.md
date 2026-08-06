@@ -14,11 +14,17 @@ The Application collects information when you download and use it. This informat
 **IPTV & User-Provided Content Disclaimer**
 EaseStarTV is a generic media player and shell application. The Service Provider does not provide, host, or stream any media content or IPTV playlists. Any M3U playlists, Xtream Codes credentials, or streaming links loaded into the Application are provided entirely by the user. The Service Provider does not collect, monitor, or store the streaming links, channel lists, or media content that you stream inside the Application.
 
+**Pre-Loaded Demonstration Catalog**
+The Application is currently distributed as a closed beta. That build ships with a small, pre-loaded catalog of openly licensed demonstration films, so that a tester can exercise playback without supplying a playlist of their own. The catalog is fixed at build time and is limited to Creative Commons Attribution works published by the Blender Foundation at video.blender.org. Playing an item from it downloads the file directly from that host to your device, so video.blender.org will see your IP address and is governed by its own privacy practices rather than this policy. Nothing in the pre-loaded catalog is provided, hosted, or streamed by the Service Provider.
+
 **Google Drive Integration & Cloud Backup**
 The Application includes a feature allowing users to back up and sync their application settings and user profiles using their personal Google Drive account. 
 * This integration utilizes official Google APIs.
 * All backup data is stored securely within the user's own private Google Drive storage.
 * The Service Provider does not have access to your Google Drive account, your files, or your backup data, and no file data is ever transmitted to external servers owned by the Service Provider.
+
+**Sub-Profile PINs**
+A PIN set on a sub-profile is stored on your device as a SHA-256 hash rather than as the digits you entered, and it is never transmitted to the Service Provider. If you enable Cloud Backup, that hash is included in the backup written to your own private Google Drive storage. A PIN restricts access to a profile inside the Application; it is not a device password and it does not encrypt your content.
 
 **In-App Purchases and Financial Data**
 The Application offers premium features via subscription options managed through Google Play Billing. The Service Provider does not collect or store your financial information, credit card numbers, or billing details. All payment processing, transactions, and subscription management are handled entirely and securely by Google Play Services.
@@ -26,6 +32,12 @@ The Application offers premium features via subscription options managed through
 **Cookies and Tracking Technologies**
 
 The Application or its third-party SDKs may use cookies, SDKs, pixels, and similar technologies to support functionality, analytics, or service delivery. Where required by applicable law, the Service Provider will obtain consent before using non-essential tracking technologies.
+
+**Support Requests**
+The Application includes a Get Help option that opens your own email app with a message addressed to bril3ydevhelp@gmail.com. Nothing is sent until you choose to send it, and the Application does not transmit a support request on your behalf. When you do contact support, the Service Provider receives whatever you include in that message, which typically means your email address, your description of the problem, and any details you add such as your app version or device model. Support correspondence is used only to answer your request and to fix the underlying issue, is never sold or shared for advertising, and is retained for up to 24 months before deletion.
+
+**Links to Other Sites**
+The Application links to the Service Provider's website at https://bril3ydev.up.railway.app/ and, for the demonstration catalog described above, to the licence pages of the works it contains. Once you follow a link away from the Application this policy no longer applies, and the privacy policy of the destination governs what happens there.
 
 **Your Rights**
 
@@ -76,8 +88,8 @@ If a data breach occurs that affects your personal data, the Service Provider wi
 
 The Service Provider may update this Privacy Policy from time to time. Material changes will be notified by posting the updated Privacy Policy with a new effective date. 
 
-This privacy policy is effective as of 2026-06-09
+This privacy policy is effective as of 2026-08-06
 
 **Contact Us**
 
-If you have any questions regarding privacy while using the Application, please contact the Service Provider via email at bril3ydevpublic@gmail.com.
+If you have any questions regarding privacy while using the Application, please contact the Service Provider via email at bril3ydevpublic@gmail.com. For help with the Application itself, use bril3ydevhelp@gmail.com.
